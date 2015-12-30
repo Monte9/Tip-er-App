@@ -12,6 +12,7 @@
 		FA692C201C0EB87D0010CCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA692C1F1C0EB87D0010CCD7 /* Assets.xcassets */; };
 		FA692C231C0EB87D0010CCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA692C211C0EB87D0010CCD7 /* LaunchScreen.storyboard */; };
 		FA9597EF1C3367590072C316 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597EE1C3367590072C316 /* SettingsViewController.swift */; };
+		FA9597F11C337B480072C316 /* GeeksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597F01C337B480072C316 /* GeeksViewController.swift */; };
 		FAD2F72B1C0EC3BD00C97406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2F72A1C0EC3BD00C97406 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		FA692C221C0EB87D0010CCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA692C241C0EB87D0010CCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA9597EE1C3367590072C316 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FA9597F01C337B480072C316 /* GeeksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeeksViewController.swift; sourceTree = "<group>"; };
 		FAD2F72A1C0EC3BD00C97406 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 				FA692C181C0EB87C0010CCD7 /* AppDelegate.swift */,
 				FAD2F72A1C0EC3BD00C97406 /* ViewController.swift */,
 				FA692C1C1C0EB87C0010CCD7 /* Main.storyboard */,
+				FA9597F01C337B480072C316 /* GeeksViewController.swift */,
 				FA9597EE1C3367590072C316 /* SettingsViewController.swift */,
 				FA692C1F1C0EB87D0010CCD7 /* Assets.xcassets */,
 				FA692C211C0EB87D0010CCD7 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				FAD2F72B1C0EC3BD00C97406 /* ViewController.swift in Sources */,
 				FA692C191C0EB87C0010CCD7 /* AppDelegate.swift in Sources */,
+				FA9597F11C337B480072C316 /* GeeksViewController.swift in Sources */,
 				FA9597EF1C3367590072C316 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

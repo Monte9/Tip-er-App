@@ -19,13 +19,14 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="uR5-xd-VEE">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.16932169859999999" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="1mL-Rl-S9W"/>
                                     <constraint firstAttribute="width" constant="200" id="pLJ-Ul-9Vh"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="uR5-xd-VEE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9Wj-X4-vgh"/>
                             <constraint firstItem="uR5-xd-VEE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HvD-En-P0T"/>
