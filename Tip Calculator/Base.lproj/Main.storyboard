@@ -9,7 +9,7 @@
         <!--Geeks View Controller-->
         <scene sceneID="GLl-bw-kbD">
             <objects>
-                <viewController id="GRQ-6d-qGD" customClass="GeeksViewController" customModule="Tip_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GRQ-6d-qGD" customClass="GeeksViewController" customModule="Tip_er" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tlt-90-nmF"/>
                         <viewControllerLayoutGuide type="bottom" id="9b6-SD-byX"/>
@@ -156,7 +156,7 @@
         <!--Tip'er-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tip_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tip_er" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -245,10 +245,10 @@
             </objects>
             <point key="canvasLocation" x="960" y="337"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Settings & Info-->
         <scene sceneID="3b6-mP-LY9">
             <objects>
-                <viewController id="GFz-SH-Jn4" customClass="SettingsViewController" customModule="Tip_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Settings &amp; Info" id="GFz-SH-Jn4" customClass="SettingsViewController" customModule="Tip_er" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tJD-86-4EK"/>
                         <viewControllerLayoutGuide type="bottom" id="jMo-LE-HG7"/>
@@ -257,19 +257,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Settings" translatesAutoresizingMaskIntoConstraints="NO" id="z0e-Y9-KGq">
-                                <rect key="frame" x="275" y="275" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.68983058789999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="zPH-VY-cbb">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.16932169859999999" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="0JV-TP-2fx"/>
-                                    <constraint firstAttribute="height" constant="50" id="Cvd-nG-b4i"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="11b-vT-m8d"/>
+                                    <constraint firstAttribute="width" constant="200" id="3lA-wJ-l8q"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="C3o-1X-kvN"/>
+                                    <constraint firstAttribute="height" constant="200" id="beF-lE-dtD"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Made by Monte Thakkar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dB-0e-bpE">
+                                <rect key="frame" x="165" y="435" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.68983058789999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.2784313725" green="0.55294117649999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="z0e-Y9-KGq" firstAttribute="centerX" secondItem="7iU-7e-aIR" secondAttribute="centerX" id="J35-O3-ehp"/>
-                            <constraint firstItem="z0e-Y9-KGq" firstAttribute="centerY" secondItem="7iU-7e-aIR" secondAttribute="centerY" id="LIH-oN-AHY"/>
+                            <constraint firstItem="zPH-VY-cbb" firstAttribute="centerX" secondItem="7iU-7e-aIR" secondAttribute="centerX" id="0R0-Vq-s1L"/>
+                            <constraint firstItem="4dB-0e-bpE" firstAttribute="top" secondItem="zPH-VY-cbb" secondAttribute="bottom" constant="20" id="bSZ-wU-zrd"/>
+                            <constraint firstItem="4dB-0e-bpE" firstAttribute="centerX" secondItem="7iU-7e-aIR" secondAttribute="centerX" id="dH5-O7-t3z"/>
+                            <constraint firstItem="zPH-VY-cbb" firstAttribute="centerY" secondItem="7iU-7e-aIR" secondAttribute="centerY" id="dRf-CP-a6a"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -298,5 +308,6 @@
     </scenes>
     <resources>
         <image name="Settings" width="32" height="32"/>
+        <image name="Splash_logo" width="96" height="108"/>
     </resources>
 </document>
